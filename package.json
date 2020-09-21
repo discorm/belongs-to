@@ -1,0 +1,40 @@
+{
+  "name": "@disco/belongs-to",
+  "version": "1.0.0",
+  "description": "Add belongs-to support to disco model drivers",
+  "author": "Stephen Belanger <admin@stephenbelanger.com> (http://stephenbelanger.com/)",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "precoverage": "npm run test",
+    "coverage": "nyc report --reporter=lcov",
+    "lint": "standard",
+    "pretest": "npm run lint",
+    "test": "nyc tap test.js"
+  },
+  "keywords": [
+    "corm",
+    "model",
+    "orm",
+    "relation",
+    "relational",
+    "relationships",
+    "belongs-to"
+  ],
+  "homepage": "https://github.com/discorm/belongs-to#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/discorm/belongs-to.git"
+  },
+  "bugs": {
+    "url": "https://github.com/discorm/belongs-to/issues"
+  },
+  "devDependencies": {
+    "@disco/base-driver": "^1.0.0",
+    "@disco/disco": "^1.0.0",
+    "is-subset": "^0.1.1",
+    "nyc": "^15.0.0",
+    "standard": "^14.3.1",
+    "tap": "^14.10.5"
+  }
+}
